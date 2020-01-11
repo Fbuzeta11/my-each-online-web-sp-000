@@ -1,3 +1,5 @@
+list = ["ab", "cd", "ef"]
+
 def my_each(array)
   i = 0
   while i < array.length 
@@ -7,4 +9,4 @@ def my_each(array)
   end
 end
 
-my_each(array) {|i| "#{i}"}
+my_each(list) {|i| "#{i}"}
